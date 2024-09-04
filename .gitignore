@@ -1,0 +1,34 @@
+# Diretórios de compilação
+target/
+build/
+
+# Configuração do IntelliJ IDEA
+.idea/
+*.iml
+
+# Configuração do Eclipse
+.project
+.classpath
+.settings/
+
+# Cache e arquivos de dependências
+.gradle/
+*.gradle
+.mvn/
+*.jar
+*.war
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários do Vim
+*.swp
+*.swo
+
+# Configuração do Visual Studio Code
+.vscode/
