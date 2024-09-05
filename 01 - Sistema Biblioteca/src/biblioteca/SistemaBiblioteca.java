@@ -12,12 +12,14 @@ import java.util.Scanner;
  * Criar classes Aluno e Professor, sendo que o aluno pode emprestar apenas 1 por vez
  *  e o professor 3 livros por vez.
 */
-
 public class SistemaBiblioteca {
+    // Vamos começar aqui, já que o método Main está aqui.
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner escolha = new Scanner(System.in);// Inicializa o objeto Scanner(Criado anteriormente "Scanner escolha")
+                                                 // com o fluxo de entrada padrão do sistema
+                                                 // (System.in). Isso faz com que o Scanner leia os dados digitados no teclado.
 
-        while (true) {//Nosso lindo e cheiroso menu
+        while (true) {// Nosso lindo e cheiroso menu
             System.out.println("\nMenu:");
             System.out.println("1. Adicionar Livro");
             System.out.println("2. Cadastrar Usuário");
@@ -27,11 +29,11 @@ public class SistemaBiblioteca {
             System.out.println("6. Listar Livros Emprestados");
             System.out.println("7. Sair");
             System.out.print("Escolha uma opção: ");
-            int opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a quebra de linha
+            int opcao = escolha.nextInt();
+            escolha.nextLine(); // Consumir a quebra de linha
 
             switch (opcao) {
-
+                
             }
         }
     }
