@@ -28,7 +28,7 @@ public class Livro {// Sim eu criei uma classe Livro, já que tudo é classe, li
         return titulo;// Retorna o título do livro.
     }
 
-    public boolean isEmprestado() {
+    public boolean estaEmprestado() {
         // Método getter para verificar se o livro está emprestado.
         // Este método retorna o valor do campo 'emprestado', permitindo que outras
         // classes saibam se o livro está emprestado.
