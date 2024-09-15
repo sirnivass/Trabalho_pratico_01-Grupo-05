@@ -1,7 +1,7 @@
 public class App {
 
     /*Instruções:
-     * mplemente um sistema de controle de vendas para uma loja. 
+     * implemente um sistema de controle de vendas para uma loja.
      * Esse sistema deve permitir que o usuário adicione produtos 
      * ao catálogo, realize vendas e visualize o histórico de vendas. 
      * As seguintes classes devem ser implementadas: 
