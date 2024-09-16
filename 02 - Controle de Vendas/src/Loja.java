@@ -5,6 +5,7 @@ public class Loja {
     private List<Produto> catalogo;
     private List<Cliente> clientes;
     private List<Venda> historicoVendas;
+    
 
     public Loja() {
         this.catalogo = new ArrayList<>();
