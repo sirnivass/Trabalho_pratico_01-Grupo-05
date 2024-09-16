@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Frota {
-    private List<Motorista> motoristas; // Cria uma lista de motorista
-    private List<Veiculo> veiculos;  // Cria uma lista de Veiculos
-    private List<Manutencao> manutencoes; //Cria uma lista de manutencoes
+    private List<Motorista> motoristas; // Cria uma lista de motorista.
+    private List<Veiculo> veiculos;  // Cria uma lista de Veiculos.
+    private List<Manutencao> manutencoes; //Cria uma lista de manutencoes.
 
     // Construtor da classe
     public Frota() {
